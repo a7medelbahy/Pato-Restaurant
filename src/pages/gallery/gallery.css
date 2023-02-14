@@ -1,3 +1,7 @@
+.gallery .page-header {
+  filter: grayscale(0.6);
+  -webkit-filter: grayscale(0.6);
+}
 .gallery .gallery-filters li button {
   background-image: url("../../images/icons/pattern1.png");
   padding: 7px 10px;

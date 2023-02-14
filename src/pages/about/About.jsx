@@ -1,6 +1,6 @@
 import "./about.css";
 import PageHeader from "../../components/PageHeader";
-import AboutImg from "../../images/heading-page-02.jpg";
+import AboutImg from "../../images/bg-title-page-03.jpg";
 import AboutStory from "./components/AboutStory";
 import Video from "./../../components/Video";
 import AboutVideo from "../../images/Restaurant Promo Video.mp4";

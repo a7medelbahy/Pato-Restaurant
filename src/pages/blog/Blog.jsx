@@ -1,5 +1,5 @@
 import PageHeader from "../../components/PageHeader";
-import BlogImg from "../../images/blog-04.jpg";
+import BlogImg from "../../images/bg-title-page-02.jpg";
 import "./blog.css";
 import LeftBlog from "./components/LeftBog";
 import RightBlog from "./components/RightBlog";

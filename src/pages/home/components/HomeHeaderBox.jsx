@@ -9,7 +9,7 @@ const HomeHeaderBox = (props) => {
     <div className="header-container text-center">
       <img
         src={props.headerBox.img}
-        className="img-fluid h-100 w-100 d-block"
+        className="img-fluid h-100 d-block"
         alt="header"
       />
       <div className="header-content">
@@ -28,7 +28,7 @@ const HomeHeaderBox = (props) => {
           data-aos="flip-up"
           data-aos-duration="2000"
           to={props.headerBox.buttonPath}
-          className="btn main-btn"
+          className="btn main-btn fw-bold"
         >
           {props.headerBox.buttonName}
         </Link>

@@ -10,7 +10,6 @@ const HomeHeader = () => {
   return (
     <div className="home-header">
       <Swiper
-        // install Swiper modules
         modules={[Navigation, Pagination]}
         spaceBetween={0}
         slidesPerView={1}

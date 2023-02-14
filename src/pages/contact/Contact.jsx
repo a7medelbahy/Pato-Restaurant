@@ -1,5 +1,5 @@
 import PageHeader from "../../components/PageHeader";
-import ContactImg from "../../images/bg-intro-05.jpg";
+import ContactImg from "../../images/our-menu-13.jpg";
 import ContactInfo from "./components/ContactInfo";
 import ContactMap from "./components/ContactMap";
 import ContactSection from "./components/ContactSection";

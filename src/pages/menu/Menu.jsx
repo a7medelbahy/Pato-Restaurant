@@ -1,6 +1,6 @@
 import "./menu.css";
 import PageHeader from "./../../components/PageHeader";
-import MenuImg from "../../images/heading-page-04.jpg";
+import MenuImg from "../../images/bg-title-page-01.jpg";
 import MainMenu from "./components/MainMenu";
 import LunchHeader from "./components/LunchHeader";
 import DinnerHeader from "./components/DinnerHeader";

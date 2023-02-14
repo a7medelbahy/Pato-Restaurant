@@ -1,3 +1,7 @@
+.reservation .page-header img {
+  filter: blur(0);
+  -webkit-filter: grayscale(0.6);
+}
 .booking .container {
   position: relative;
 }

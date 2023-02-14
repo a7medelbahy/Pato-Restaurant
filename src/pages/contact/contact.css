@@ -1,3 +1,7 @@
+.contact .page-header img {
+  filter: blur(0);
+  -webkit-filter: grayscale(0.6);
+}
 .contact .contact-map iframe {
   height: 400px;
 }

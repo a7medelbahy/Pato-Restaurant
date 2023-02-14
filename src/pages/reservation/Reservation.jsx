@@ -1,6 +1,6 @@
 import "./reservation.css";
 import PageHeader from "../../components/PageHeader";
-import RservationImg from "../../images/intro-01.jpg";
+import RservationImg from "../../images/our-menu-14.jpg";
 import BookingSection from "./components/BookingSection";
 import ReservationInfo from "./components/ReservationInfo";
 
