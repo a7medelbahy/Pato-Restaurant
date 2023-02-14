@@ -1,6 +1,6 @@
 const MainMenuBox = ({ title, desc, price }) => {
   return (
-    <div className="menu-box d-flex justify-content-between flex-wrap">
+    <div className="menu-box d-flex align-items-center justify-content-center justify-content-sm-between flex-wrap text-center text-sm-start">
       <div className="item-info">
         <p className="secondary-font fw-bold m-0">{title}</p>
         <small className="secondary-font">{desc}</small>

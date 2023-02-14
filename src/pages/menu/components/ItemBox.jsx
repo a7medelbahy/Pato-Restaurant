@@ -2,7 +2,7 @@ const ItemBox = ({ img, title, desc, price }) => {
   return (
     <div className="col-md-6">
       <div
-        className="item-box d-flex flex-wrap gap-4 align-items-center"
+        className="item-box d-flex flex-wrap gap-4 align-items-center justify-content-center justify-content-sm-start text-center text-sm-start"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
