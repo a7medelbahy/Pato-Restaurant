@@ -1,0 +1,39 @@
+.about .video-box {
+  background-image: url("../../images/bg-cover-video-01.jpg");
+}
+.about .about-recipe .recipe-img img,
+.about .about-romantic .romantic-img img,
+.about .about-chefs .chef-box .chef-img img {
+  transition: var(--main-transition);
+}
+.about .about-recipe .recipe-img:hover img,
+.about .about-romantic .romantic-img:hover img,
+.about .about-chefs .chef-box .chef-img:hover img {
+  transform: scale(1.08);
+}
+
+.about-discover {
+  background-image: url("../../images/bg-intro-04.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  height: 75vh;
+}
+.about-discover .main-heading h2 {
+  color: white;
+  letter-spacing: 3px;
+}
+.about .about-chefs .chef-box {
+  position: relative;
+  border: 2px solid #ccc;
+}
+.about .about-chefs .chef-box .chef-img {
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  border: 3px solid var(--main-red-color);
+}
+.about .about-chefs .chef-box .chef-info {
+  margin-top: 30%;
+}

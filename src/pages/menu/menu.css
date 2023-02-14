@@ -1,0 +1,37 @@
+.menu .menu-component h4 {
+  color: var(--main-red-color);
+}
+.lunch-header,
+.dinner-header {
+  background-attachment: fixed;
+  background-position: center;
+  height: 50vh;
+  background-size: cover;
+}
+.lunch-header .main-heading h2,
+.dinner-header .main-heading h2 {
+  color: white;
+  letter-spacing: 3px;
+}
+.lunch-header {
+  background-image: url("../../images/intro-02.jpg");
+}
+.dinner-header {
+  background-image: url("../../images/bg-intro-05.jpg");
+}
+
+.menu .menu-section .item-box .item-img {
+  width: 150px;
+}
+.menu .menu-section .item-box .item-info h5 {
+  transition: var(--main-transition);
+}
+.menu .menu-section .item-box:hover .item-info h5 {
+  color: var(--main-red-color);
+}
+.menu .menu-section .item-box .item-img img {
+  transition: var(--main-transition);
+}
+.menu .menu-section .item-box:hover .item-img img {
+  transform: scale(1.08);
+}

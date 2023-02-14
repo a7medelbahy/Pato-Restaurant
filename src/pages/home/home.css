@@ -1,0 +1,153 @@
+.home-header {
+  height: 100vh;
+}
+.home-header .swiper {
+  height: 100%;
+  width: 100%;
+}
+.swiper .swiper-pagination .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background-color: #ccc;
+  opacity: 0.5;
+}
+.swiper
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: var(--main-red-color);
+  opacity: 1;
+}
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+  color: var(--main-red-color);
+}
+.home-header .header-container {
+  position: relative;
+  height: 100%;
+}
+.home-header .header-container .header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.home-header .header-container .header-content h3 {
+  color: var(--main-red-color);
+  font-family: var(--heading-font);
+}
+.home-header .header-container .header-content h1 {
+  font-family: var(--main-font);
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.home-about .content .content-desc {
+  color: var(--secondary-black-color);
+  font-weight: 400;
+}
+
+.home-about .about-img img {
+  transition: var(--main-transition);
+  overflow: hidden;
+}
+.home-about .about-img:hover img {
+  transform: scale(1.08);
+}
+.home-discover {
+  background-image: url("../../images/bg-intro-01.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}
+.home-discover .main-heading h2 {
+  color: white;
+  letter-spacing: 3px;
+}
+.home-services .service-box .service-img img {
+  transition: var(--main-transition);
+}
+.home-services .service-box .service-img:hover img {
+  transform: scale(1.08);
+}
+
+.home-menu .menu-img {
+  position: relative;
+}
+.home-menu .main-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.home-menu .menu-img img {
+  transition: var(--main-transition);
+}
+.home-menu .menu-img:hover img {
+  transform: scale(1.08);
+}
+.events {
+  background-image: url("../../images/bg-event-02.jpg");
+}
+.events .main-heading h2 {
+  color: white;
+}
+.events .event-box {
+  position: relative;
+  padding-bottom: 70px;
+  z-index: 2;
+}
+.events .event-box .event-data h5 {
+  letter-spacing: 2px;
+}
+.events .swiper .swiper-pagination .swiper-pagination-bullet {
+  background-color: white;
+  width: 15px;
+  height: 15px;
+}
+.events
+  .swiper
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: var(--main-red-color);
+}
+.events .event-box .event-timer .timer-box p {
+  color: var(--main-red-color);
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.home-booking .booking-img img {
+  transition: var(--main-transition);
+}
+.home-booking .booking-img:hover img {
+  transform: scale(1.08);
+}
+.home-booking .secondary-btn {
+  left: 50%;
+  transform: translateX(-50%);
+  position: relative;
+}
+
+.home-reviews .review-box .review-img {
+  border: 4px solid var(--main-red-color);
+  width: 200px;
+}
+.home-reviews .review-box .star-rating .star {
+  color: var(--main-red-color);
+}
+.home-reviews .review-box#id-2 .star-rating span:last-child {
+  color: var(--secondary-black-color);
+}
+
+.video-box {
+  background-image: url("../../images/bg-cover-video-02.jpg");
+}
+
+.home-blog .blog-box .blog-img img {
+  transition: var(--main-transition);
+}
+.home-blog .blog-box .blog-img:hover img {
+  transform: scale(1.08);
+}

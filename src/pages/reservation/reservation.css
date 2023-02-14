@@ -1,0 +1,14 @@
+.booking .container {
+  position: relative;
+}
+.reservation .booking form .secondary-btn {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.reservation .reservation-info .reserve-img img {
+  transition: var(--main-transition);
+}
+.reservation .reservation-info .reserve-img:hover img {
+  transform: scale(1.08);
+}

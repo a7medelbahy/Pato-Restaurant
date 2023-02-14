@@ -1,0 +1,24 @@
+.contact .contact-map iframe {
+  height: 400px;
+}
+.contact .contact-section form textarea {
+  resize: none;
+  height: 200px;
+}
+.contact .contact-section .container {
+  position: relative;
+}
+.contact .contact-section .secondary-btn {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.contact .contact-info .content i {
+  color: var(--main-red-color);
+}
+.contact .contact-info .contact-img img {
+  transition: var(--main-transition);
+}
+.contact .contact-info .contact-img:hover img {
+  transform: scale(1.08);
+}
