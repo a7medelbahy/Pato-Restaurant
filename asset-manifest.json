@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pato-Restaurant/static/css/main.834596f5.css",
-    "main.js": "/Pato-Restaurant/static/js/main.34a104ce.js",
+    "main.js": "/Pato-Restaurant/static/js/main.914e6fc0.js",
     "static/media/The Top Five Secrets of a Successful Restaurant.mp4": "/Pato-Restaurant/static/media/The Top Five Secrets of a Successful Restaurant.a9d057ff9b64c1017c1e.mp4",
     "static/media/Restaurant Promo Video.mp4": "/Pato-Restaurant/static/media/Restaurant Promo Video.cd85e1bbc015ca7c9f10.mp4",
     "static/media/bg-intro-04.jpg": "/Pato-Restaurant/static/media/bg-intro-04.ccca3629a0f530ef34ad.jpg",
@@ -98,10 +98,10 @@
     "static/media/fa-v4compatibility.woff2": "/Pato-Restaurant/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
     "index.html": "/Pato-Restaurant/index.html",
     "main.834596f5.css.map": "/Pato-Restaurant/static/css/main.834596f5.css.map",
-    "main.34a104ce.js.map": "/Pato-Restaurant/static/js/main.34a104ce.js.map"
+    "main.914e6fc0.js.map": "/Pato-Restaurant/static/js/main.914e6fc0.js.map"
   },
   "entrypoints": [
     "static/css/main.834596f5.css",
-    "static/js/main.34a104ce.js"
+    "static/js/main.914e6fc0.js"
   ]
 }
