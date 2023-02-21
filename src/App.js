@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 import AfterFooter from "./components/AfterFooter";
 import UpBtn from "./components/UpBtn";
 import NotFound from "./pages/notFound/NotFound";
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+import RingLoader from "react-spinners/RingLoader";
 import { useState, useEffect } from "react";
 
 const App = () => {
@@ -36,7 +36,7 @@ const App = () => {
   return (
     <React.Fragment>
       {loading ? (
-        <ClimbingBoxLoader
+        <RingLoader
           style={styling}
           color={"#ec1d25"}
           loading={loading}
